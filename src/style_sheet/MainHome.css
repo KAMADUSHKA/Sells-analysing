@@ -1,0 +1,81 @@
+#input-plc{
+    display: flex;
+}
+
+#start-date{
+    height: 50px;
+    width: 250px;
+    border-radius: 6px;
+   
+}
+
+#end-date{
+    height: 50px;
+    width: 250px;
+    border-radius: 6px;
+    margin-left: 10%;
+}
+
+#start-btn{
+    height: 50px;
+    width: 320px;
+    border-radius: 6px;
+    background-color: black;
+    color: aliceblue;
+    margin-left: 10%;
+}
+
+#outputs{
+    display: flex;
+   
+}
+
+#fieldset-selse{
+    height: 80px;
+    width: 350px;
+    border-radius: 6px;
+    color: aliceblue;
+    background-color: black;
+    margin-right: 3%;
+}
+
+#fieldset-profit{
+    height: 80px;
+    width: 350px;
+    border-radius: 6px;
+}
+
+#totale-sels-icon{
+    margin-left: 60%;
+    font-size: 20px;
+}
+
+#totale-profit-icon{
+    margin-left: 60%;
+    font-size: 20px; 
+}
+
+#selse-output-profit{
+    margin-top: 100%;
+}
+
+#chart-aria{
+    width: 100%;
+    display: flex;
+   
+}
+
+#navBar{
+    height: 40px;
+    background-color: rgb(6, 0, 0);
+    margin-left: start;
+    
+
+}
+
+
+#icon-icon{
+    font-size: 40px;
+    padding-left: 10px;
+}
+

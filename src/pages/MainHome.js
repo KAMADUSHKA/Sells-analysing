@@ -116,7 +116,7 @@ export default function MainHome() {
             <div id='outputs'>
                   <fieldset id='fieldset-selse'>
                       <div>
-                        <span>totale seles</span>
+                        <span>total sales</span>
                         <icons.AiFillLock />
                       </div>
                       <br/><br/>
@@ -126,7 +126,7 @@ export default function MainHome() {
 
                   <fieldset id='fieldset-profit'>
                       <div>
-                        <span>totale profit</span>
+                        <span>total profit</span>
                         <icons.AiFillDollarCircle id='totale-profit-icon'/>
                       </div>
                       <br/><br/>
@@ -142,7 +142,7 @@ export default function MainHome() {
 
             <div id='chart-aria'>
                 <div id='line-chrt-aria'>
-                        <span>seles Performance (Seles Rounds to Rs.1000)</span>
+                        <span>sales Performance (Sales Rounds to Rs.1000)</span>
                     <LineChart id='line-chart' width={600} height={300} data={lineChartDataDates}>
                         <XAxis dataKey="date" />
                         <YAxis />
@@ -154,7 +154,7 @@ export default function MainHome() {
                     </LineChart>
                 </div>
                 <div id='pi-chart-aria'>
-                      <span>Route Vise Seles</span>
+                      <span id='pichart-span'>Route Vise Sales</span>
                     <PieChart width={500} height={400}>
                         <Pie
                           data={piChartDatavalue}

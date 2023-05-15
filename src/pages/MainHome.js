@@ -8,17 +8,6 @@ import { IconContext } from 'react-icons';
 
 export default function MainHome() {
 
-    
-
-    // const data = [
-    //   { name: 'Jan', value: 4000 },
-    //   { name: 'Feb', value: 3000 },
-    //   { name: 'Mar', value: 2000 },
-    //   { name: 'Apr', value: 2780 },
-    //   { name: 'May', value: 1890 },
-    //   { name: 'Jun', value: 2390 },
-    //   { name: 'Jul', value: 3490 },
-    // ];
 
 
     const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#AF19FF', '#FF1E2D', '#A2D729'];
@@ -57,12 +46,10 @@ export default function MainHome() {
               let dataPlaces = response.data.data.routeList;
               let dataPlaceCount = response.data.data.routeSales;
               
-          //     let lineChartDates = dataSeles.map(function(element) {
-          //       return element[0]; // extract the date component
-          //   })
+
 
             let lineChartValue = dataSeles.map(function(element) {
-              return element[1]; // extract the date component
+              return element[1]; 
           })
           
              
@@ -103,7 +90,7 @@ export default function MainHome() {
           });
       }, []);
       
-      console.log(piChartDatavalue)
+      
    
 
   return (
